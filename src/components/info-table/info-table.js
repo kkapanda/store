@@ -19,27 +19,26 @@ let avgPrice = (totalPrice / items.length).toFixed(2);
                 Catalog Information
             </h2>
             <table className='table'>
-                <thead>
-                    <tr>
-                        <th>Quantity</th>
-                        <th>Total Price</th>
-                        <th>Average Price</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
+                        <tr>
+                        <th>Count</th>
                         <td>{items.length}</td>
+                        </tr>
+                        <tr>
+                        <th>Total Price</th>
                         <td>${totalPrice}</td>
+                        </tr>
+                        <tr>
+                        <th>Average Price</th>
+                        
                         <td>${avgPrice}</td>
-                        <td>
-                            <button className='btn btn-warning btn-sm float-left'>
+                        </tr>
+                        <tr>
+                        <th colspan="2">
+                            <button className='btn btn-warning btn-sm'>
                                 <i className="fa fa-trash"></i> Delete All
-                        </button>
-                        </td>
-                    </tr>
-
-                </tbody>
+                            </button>
+                        </th>
+                       </tr>
             </table>
         </div>
     )

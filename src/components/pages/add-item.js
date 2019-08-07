@@ -22,7 +22,7 @@ const AddItem = ( addItemToCatalog ) => {
     }
 
     return (
-        <div className="new-item-page">
+        <div className="add-item-page">
           <h2>Add new Item</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
@@ -33,10 +33,12 @@ const AddItem = ( addItemToCatalog ) => {
               <label>Price</label>
               <input type="text" className="form-control" onChange={handlePrice} />
             </div>
-            
+            <div className="text-center">
             <button type="submit" 
-                    className="btn btn-primary sbmt-btn"
+                    className="btn btn-warning sbmt-btn"
                     onClick={()=>addItemToCatalog(payload)}>Submit</button>
+            </div>
+           
           </form>
         </div>
       );

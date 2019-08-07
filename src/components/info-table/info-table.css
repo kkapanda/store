@@ -1,0 +1,22 @@
+table {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(71, 143, 192);
+}
+
+.info-table table td, 
+.info-table table th {
+    border-top: 1px solid lightblue;
+    width: 50%;
+}
+
+
+
+.btn-warning {
+    color: #fff;
+    font-size: 1em;
+}

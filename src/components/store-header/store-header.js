@@ -7,7 +7,7 @@ const StoreHeader = () => {
     return (
         <header className='store-header row'>
             <Link to="/">
-            <a className='logo text-dark' href='#'>Game Store</a>
+            <a className='logo text-dark' href='#'>GameStore <i className="fa fa-gamepad"></i> </a>
             </Link>
             <Menu />
 
