@@ -15,8 +15,8 @@ const CatalogListItem = ({ item, deleteItem }) => {
                 <div className='item-description'>{description}</div>
                 <div className='item-price'>${price}</div>
                 <button className='btn btn-info delete-item'
-                onClick={deleteItem}>
-                    
+                    onClick={deleteItem}>
+
                     <i className="fa fa-trash"></i>
                 </button>
             </div>
