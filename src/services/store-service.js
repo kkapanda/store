@@ -20,14 +20,14 @@ export default class StoreService {
                 id: 3, 
                 title: 'Divinity Original Sin 2', 
                 description: 'The eagerly anticipated sequel to the award-winning RPG. Gather your party. Master deep, tactical combat.',
-                price: '44,99',
+                price: '44.99',
                 coverImage: 'https://cdn-prod.scalefast.com/public/assets/user/6562614/image/fc0fea76b4a2f75dc282d0dba05a31a1.jpg'
             },
             {
                 id: 4, 
                 title: 'Borderlands 3', 
                 description: 'The original shooter-looter returns, packing bazillions of guns and an all-new mayhem-fueled adventure!',
-                price: '44,99',
+                price: '44.99',
                 coverImage: 'https://store-images.s-microsoft.com/image/apps.29198.64533163757722640.6f7413b4-c2c4-4451-8064-60774a6d143e.e0f7a7f8-ab7d-458a-a4fc-2bfc8a8fbfcc'
             }
         ];

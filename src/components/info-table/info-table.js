@@ -7,11 +7,13 @@ const InfoTable = ( {items} ) => {
 let totalPrice = 0;
 items.forEach((item) => {
    totalPrice += Number(item.price)
+   console.log(item.price)
 })
 
 let avgPrice = (totalPrice / items.length).toFixed(2);
   if(!avgPrice) avgPrice = 0;
 
+  console.log(items)
 
     return (
         <div className='info-table'>
@@ -29,7 +31,6 @@ let avgPrice = (totalPrice / items.length).toFixed(2);
                         </tr>
                         <tr>
                         <th>Average Price</th>
-                        
                         <td>${avgPrice}</td>
                         </tr>
                         <tr>
