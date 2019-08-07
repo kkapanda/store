@@ -1,0 +1,30 @@
+.catalog-list-item {
+    display: flex;
+    margin: 15px 0;
+}
+
+.catalog-list-item .item-cover {
+    flex-shrink: 0;
+    width: 150px;
+    margin-right: 30px;
+}
+
+.catalog-list-item .item-cover img{
+    max-width: 100%;
+}
+
+.catalog-list-item .item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.catalog-list-item .item-details .item-title {
+    font-size: 1.6rem;
+}
+
+.catalog-list-item .item-details .item-price {
+    font-weight: bold;
+}
