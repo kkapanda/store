@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { addItemToCatalog } from '../../actions';
+import './add-item.css'
 
 const AddItem = ( addItemToCatalog ) => {
     const payload = {
@@ -25,7 +26,7 @@ const AddItem = ( addItemToCatalog ) => {
           <h2>Add new Item</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label>Name</label>
+              <label>Title</label>
               <input type="text" className="form-control" onChange={handleName} />  
             </div>
             <div className="form-group">
@@ -34,7 +35,7 @@ const AddItem = ( addItemToCatalog ) => {
             </div>
             
             <button type="submit" 
-                    className="btn btn-primary"
+                    className="btn btn-primary sbmt-btn"
                     onClick={()=>addItemToCatalog(payload)}>Submit</button>
           </form>
         </div>
